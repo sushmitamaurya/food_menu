@@ -42,6 +42,10 @@
         "editor.wordBasedSuggestions": false,
         "editor.lightbulb.enabled": true,
         "editor.suggestOnTriggerCharacters": true,
-        "editor.quickSuggestions": true,
+        "editor.quickSuggestions": {
+			"comments": "on",
+			"strings": "on",
+			"other": "on"
+		},
 	}
 }
